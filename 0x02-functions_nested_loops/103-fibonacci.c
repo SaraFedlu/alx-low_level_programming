@@ -1,12 +1,14 @@
 #include <stdio.h>
 /**
  * main - check the code
- * Return (0)
+ * Return: (0)
  */
 int main(void)
 {
 unsigned long i, j, s;
 float sum;
+i = 0;
+j = 1;
 while (1)
 {
 s = i + j;
