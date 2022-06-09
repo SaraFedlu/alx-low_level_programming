@@ -19,7 +19,7 @@ j = s;
 if (k == 49)
 	printf("\n");
 else
-	printf(",");
+	printf(", ");
 k++;
 }
 return (0);
