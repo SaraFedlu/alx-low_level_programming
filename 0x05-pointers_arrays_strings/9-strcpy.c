@@ -13,6 +13,8 @@ while (src[index])
 {
 dest[index] = src[index];
 index++;
+if (src == "")
+	break;
 }
 
 return (dest);
