@@ -4,8 +4,9 @@
  * main - print  all the arguments passed to it
  * @argc: the argument
  * @argv: pointer to the arguments
+ * Return: (0)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int add = 0, i, j;
 
@@ -22,5 +23,5 @@ return (0);
 add += atoi(argv[i]);
 }
 printf("%d\n", add);
-return 0;
+return (0);
 }
