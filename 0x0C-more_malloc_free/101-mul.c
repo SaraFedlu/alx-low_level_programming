@@ -205,10 +205,10 @@ add_nums(final_prod, next_prod, size - 1);
 for (index = 0; final_prod[index]; index++)
 {
 if (final_prod[index] != 'x')
-	putchar(final_prod[index]);
+	_putchar(final_prod[index]);
 
 }
-putchar('\n');
+_putchar('\n');
 
 free(next_prod);
 free(final_prod);
