@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - test
+/**
+ * main - prints a current input file name
  * Return: (0)
  */
 int main(void)
